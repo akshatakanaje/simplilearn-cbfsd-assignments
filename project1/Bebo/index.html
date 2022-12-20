@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles/style.css">
+        <script src="js/script.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <form>
+                
+
+                <div class="input-group">
+                    <label>Full Name</label>
+                    <input type="text" placeholder="Enter your name" id="contact-name" onkeyup="validateName()">
+                    <span id="name-error">name is required</span>
+                </div>
+
+                <div class="input-group">
+                    <label>Email Id</label>
+                    <input type="email" placeholder="Enter email" id="contact-email" onkeyup="validateEmail()">
+                    <span id="email-error">email is required</span>
+                </div>
+                <button>submit</button>
+            </form>
+        </div>
+        
+    </body>
+</html>
